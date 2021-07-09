@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@200;300;400;500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Poppins, sans-serif;
+    background-color: rgb(250, 250, 250);
+    
+}
+
+
+
+/* header */
+header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(169, 169, 169);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.nav-grup{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 85%;
+    
+    padding: 5px 0;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+#header-img{
+    width: 50px;
+    margin-right: 15px;
+}
+#logo{
+    font-family: Fjalla One, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #0b3463;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    font-weight: 400;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.nav-link{
+    font-size: 18px;
+}
+
+#sign-up{
+    position: relative;
+    background-color: #ffd91c;
+    padding: 10px 5px;
+    border-radius: 50px;
+}
+#sign-up:hover{
+    background-color: #f8df63;
+}
+#sign-up a{
+    font-weight: 700;
+    color: #0b3463;
+}
+/* end header */
+
+
+
+/* main */
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 80px auto;
+    padding-top: 50px;
+}
+#main-img{
+    max-width: 580px;
+    cursor: pointer;
+}
+
+#title{
+    font-size: 50px;
+    line-height: 65px;
+    color: #0b3463;
+    font-weight: 700;
+}
+#title-desc{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 4px 0 15px 0;
+    line-height: 25px;
+    color: #0b3463;
+}
+#btn{
+    background-color: #ffd60a;
+    text-decoration: none;
+    color: #0b3463;
+    padding: 10px 30px;
+    border-radius: 3px;
+    transition: .3s;
+}
+#btn:hover{
+    background-color: #e7ca37;
+}
+.left-col h4{
+    margin-top: 20px;
+}
+
+#todo{
+    padding-top: 10px;
+    /* background: radial-gradient(#ece5c3, #e7ca37); */
+}
+.center-text{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 34px;
+    color: #0b3463;
+}
+.card-grup{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.card-3{
+    width: 200px;
+    margin: 40px 20px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background-color: #8cb6e7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+}
+.card-3 h3{
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.card-3 a{
+    font-size: 40px;
+    color: #fff;
+}
+#video{
+    margin: 10px auto;
+    align-self: center;
+    transform: translateX(58%);
+    z-index: -1;
+}
+#form{
+    margin: 0 auto;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(246, 246, 246);
+    }
+  }
+/* end main */
